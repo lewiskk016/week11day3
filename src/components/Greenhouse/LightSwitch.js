@@ -1,5 +1,6 @@
 import './LightSwitch.css';
 
+
 function LightSwitch() {
   return (
     <div className="light-switch day">
