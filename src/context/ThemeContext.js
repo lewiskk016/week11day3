@@ -8,7 +8,7 @@ export default function ThemeProvider({ children }) {
   const [themeName, setThemeName] = useState("day");
 
   return (
-    <ThemeContext.Provider
+    <ThemeContext.Provider 
       value={{
         themeName,
         setThemeName
