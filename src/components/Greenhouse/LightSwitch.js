@@ -1,9 +1,7 @@
 import './LightSwitch.css';
 import { useTheme } from '../../context/ThemeContext';
-import { useState } from 'react';
 
 function LightSwitch() {
-  // const [themeName, setThemeName] = useState("day");
   const { themeName, setThemeName } = useTheme();
 
   const handleClick = e => {
